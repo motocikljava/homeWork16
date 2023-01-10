@@ -1,4 +1,4 @@
-public abstract class tpansport {
+public abstract class Tpansport {
     String mark;
     String model;
     private int year;
@@ -6,7 +6,7 @@ public abstract class tpansport {
     String color;
     double maxSpeed;
 
-    public  tpansport(String mark, int year, String country, double maxSpeed, String color) {
+    public Tpansport(String mark, int year, String country, double maxSpeed, String color) {
         this.mark = mark;
         this.model = model;
         this.year = year;

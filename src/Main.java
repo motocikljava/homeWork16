@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        car.Insurance insurLada = new car.Insurance(2022, 1.1, 1);
-        car.Insurance insurAudi = new car.Insurance(2022, 1.1, 1);
-        car.Insurance insurBmw = new car.Insurance(2022, 1.1, 1);
-        car.Insurance insurHuindai = new car.Insurance(2023, 1.1, 1);
-        car.Insurance insurKia = new car.Insurance(2022, 1.1, 1);
+        Car.Insurance insurLada = new Car.Insurance(2022, 1.1, 1);
+        Car.Insurance insurAudi = new Car.Insurance(2022, 1.1, 1);
+        Car.Insurance insurBmw = new Car.Insurance(2022, 1.1, 1);
+        Car.Insurance insurHuindai = new Car.Insurance(2023, 1.1, 1);
+        Car.Insurance insurKia = new Car.Insurance(2022, 1.1, 1);
 //(String mark, String model, int year, String country, String color, double maxSpeed, double engineVolume,
 //               String transmission, String bodyType, int numberOfSeats, String winOrSumSires) {
 
 
 
-        car lada = new car("Lada", "Granda", 2015, "Россия", "жёлтый", 200, 1.7, "механическая",
+        Car lada = new Car("Lada", "Granda", 2015, "Россия", "жёлтый", 200, 1.7, "механическая",
                 "седан", 5 , "зимняя");
         lada.setInsurance(insurLada);
         /*
@@ -33,12 +33,12 @@ public class Main {
          отходит от Ленинградского вокзала и следует до станции Ленинград-Пассажирский. Цена поездки - 1700 рублей, в поезде 8 вагонов.
 
          */
-        train lastochka = new train("Ласточка В-901", 2011, "Россия",301.0,
+        Train lastochka = new Train("Ласточка В-901", 2011, "Россия",301.0,
                 3500, "Белорусский вокзал", "Минск-Пассажирский", 11, null);
-        train leningrad = new train("Ленинград D-125", 2019, "Россия", 270.0,
+        Train leningrad = new Train("Ленинград D-125", 2019, "Россия", 270.0,
                 1700, "Ленинградский вокзал", "Ленинград-Пассажирский", 8, null);
 
-        autobus paz = new autobus("Пазик", 2008, "Россия", 180, "голубой");
+        Autobus paz = new Autobus("Пазик", 2008, "Россия", 180, "голубой");
 
 
 

@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class car extends tpansport{
+public class Car extends Tpansport {
 double engineVolume;
     String transmission;
     protected String bodyType;
@@ -11,7 +11,7 @@ double engineVolume;
     String winOrSumSires;
 
 
-    public car(String mark, String model, int year, String country, String color, double maxSpeed, double engineVolume,
+    public Car(String mark, String model, int year, String country, String color, double maxSpeed, double engineVolume,
                String transmission, String bodyType, int numberOfSeats, String winOrSumSires) {
         super(mark, year, country, maxSpeed, color);
         this.engineVolume = engineVolume;

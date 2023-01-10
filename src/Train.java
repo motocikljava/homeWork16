@@ -1,11 +1,11 @@
-public class train extends tpansport{
-    int priceTrip;
-    String timeTrip;
-    String depStation;
-    String endStation;
-    int vagNumber;
+public class Train extends Tpansport {
+    protected int priceTrip;
+    protected String timeTrip;
+    protected String depStation;
+    protected String endStation;
+    protected int vagNumber;
 
-    public train(String model, int year, String country, double maxSpeed, int priceTrip, String depStation, String endStation, int vagNumber, String color) {
+    public Train(String model, int year, String country, double maxSpeed, int priceTrip, String depStation, String endStation, int vagNumber, String color) {
         super(model, year, country, maxSpeed, color);
         this.priceTrip = priceTrip;
         this.timeTrip = timeTrip;

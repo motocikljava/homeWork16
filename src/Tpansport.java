@@ -1,10 +1,10 @@
 public abstract class Tpansport {
-    String mark;
-    String model;
+    protected String mark;
+    protected String model;
     private int year;
     private String country;
-    String color;
-    double maxSpeed;
+    protected String color;
+    protected double maxSpeed;
 
     public Tpansport(String mark, int year, String country, double maxSpeed, String color) {
         this.mark = mark;

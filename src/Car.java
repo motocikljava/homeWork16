@@ -3,12 +3,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Car extends Tpansport {
-double engineVolume;
-    String transmission;
+    protected double engineVolume;
+    protected String transmission;
     protected String bodyType;
-    String autoNumber;
+    protected String autoNumber;
     protected int numberOfSeats;
-    String winOrSumSires;
+    protected String winOrSumSires;
 
 
     public Car(String mark, String model, int year, String country, String color, double maxSpeed, double engineVolume,
